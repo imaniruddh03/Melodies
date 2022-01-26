@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Neonderthaw&display=swap');
+body{
+    background-color: rgb(48, 170, 170);
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav{
+    font-family: 'Dongle', sans-serif;
+    font-size: larger;
+
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 90px;
+    background-color: black;
+    color: bisque;
+}
+nav ul li{
+    padding: 0 12px;
+    
+}
+
+.brand img{
+    width: 90px;
+    padding: 0 8px;
+
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    font-family: 'Neonderthaw', cursive;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 15px;
+    padding: 34px;
+    background-image: url('image1.webp');
+
+}
+
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: rgb(235, 66, 60);
+    color: darkcyan;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 15px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 130vh;
+}
+.songItem{
+    height: 70px;
+    display: flex;
+    background-color: thistle;
+    width: 90%;
+    color: black;
+    margin: 12px 0;
+    font-family: 'Dongle', sans-serif;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: red;
+    }
+  }
